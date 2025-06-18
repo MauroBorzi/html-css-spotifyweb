@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* layout */
+
+header {
+  background-color: rgb(8, 11, 18, 0.5);
+  height: 70px;
+}
+
+main {
+  height: calc(100vh - 100px);
+  display: flex;
+}
+
+footer {
+  background-color: #282828;
+  height: 100px;
+}
+
+/* layout sidebar */
+
+#sidebar {
+  width: 200px;
+  background-color: #000000;
+  height: 100%;
+}
+
+/* layout content */
+
+#content {
+  height: 100%;
+  width: calc(100vw - 200px);
+  background-color: #141922;
+}
