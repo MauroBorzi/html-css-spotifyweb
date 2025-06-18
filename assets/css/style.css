@@ -13,6 +13,7 @@ body {
 header {
   background-color: rgb(8, 11, 18, 0.5);
   height: 70px;
+  text-align: right;
 }
 
 main {
@@ -36,6 +37,7 @@ hr {
   background-color: #000000;
   height: 100%;
   font-weight: bold;
+  overflow-y: auto;
 }
 
 #sidebar ul {
@@ -82,7 +84,26 @@ hr {
   background-color: #141922;
 }
 
+/* layout content header*/
+
+header a {
+  text-decoration: none;
+}
+
+.box {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 20%;
+}
+
 /* utility */
+
+.bg-black {
+  background-color: #000000;
+}
 
 .text-white {
   color: white;
@@ -93,7 +114,7 @@ hr {
 }
 
 .text-size-14 {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .display-flex {
@@ -127,5 +148,5 @@ hr {
 
 .absolute-john {
   position: absolute;
-  bottom: 105px;
+  bottom: 100px;
 }
