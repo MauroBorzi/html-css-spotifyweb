@@ -126,6 +126,10 @@ h3 {
   margin-left: 24px;
 }
 
+.content-box {
+  border-radius: 50%;
+}
+
 /* layout content header*/
 
 .box {
