@@ -52,6 +52,16 @@ h3 {
   padding-bottom: 5px;
 }
 
+ul li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+ul li a:hover {
+  color: white;
+  cursor: pointer;
+}
+
 /* layout sidebar */
 
 #sidebar {
@@ -195,6 +205,7 @@ h3 {
 
 .player-controller-time:hover .elapsed-time {
   background-color: #adff2f;
+  cursor: pointer;
 }
 
 .player-controller-time:hover .controller-point {
