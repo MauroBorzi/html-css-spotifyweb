@@ -21,21 +21,23 @@
     <div id="sidebar">
       <ul>
         <li>
-          <img src="./assets/img/logo.svg" class="side-logo" alt="">
+          <img src="./assets/img/logo.svg" class="pl-20 side-logo display-none" alt="">
+          <img src="./assets/img/logo-small.svg" class="pl-20 borderleft-black side-logosmall display-block" alt="">
         </li>
         <li class="pl-20 pb-15 pt-10 display-flex borderleft-green">
           <img src="./assets/img/home.svg" class="side-menu" alt=""><span
-            class="text-white"><strong>Home</strong></span>
+            class="text-white display-none"><strong>Home</strong></span>
         </li>
-        <li class="pl-20 pb-15 display-flex text-size-14">
-          <img src="./assets/img/search.svg" class="side-menu" alt=""><span class="text-grey">Cerca</span>
+        <li class="pl-20 pb-15 display-flex text-size-14 borderleft-black">
+          <img src="./assets/img/search.svg" class="side-menu" alt=""><span class="text-grey display-none">Cerca</span>
         </li>
-        <li class="pl-20 pb-15 display-flex text-size-14">
-          <img src="./assets/img/libreria.svg" class="side-menu" alt=""><span class="text-grey">La tua libreria</span>
+        <li class="pl-20 pb-15 display-flex text-size-14 borderleft-black">
+          <img src="./assets/img/libreria.svg" class="side-menu" alt=""><span class="text-grey display-none">La tua
+            libreria</span>
         </li>
       </ul>
 
-      <ul>
+      <ul class="display-none">
         <li class="pl-20 pb-15 pt-10">
           <span class="text-white"><strong>PLAYLIST</strong></span>
         </li>
@@ -66,13 +68,14 @@
       </ul>
 
       <div class="text-grey text-size-14 pl-20 absolute-john bg-black pb-15">
-        <div class="display-flex pb-8 pt-5">
+        <div class="display-flex pb-8 pt-5 borderleft-black">
           <img src="./assets/img/download.svg" alt="" class="download-img">
-          <span>Installa app</span>
+          <span class="display-none">Installa app</span>
         </div>
         <hr>
-        <div class="display-flex">
-          <img src="./assets/img/profile.svg" alt="" class="profile-img"><span class="text-white"><strong>John
+        <div class="display-flex borderleft-black">
+          <img src="./assets/img/profile.svg" alt="" class="profile-img"><span
+            class="text-white display-none"><strong>John
               Doe</strong></span>
         </div>
       </div>
@@ -263,7 +266,7 @@
           <i class="fa-solid fa-display"></i>
           <i class="fa-solid fa-volume-high"></i>
         </div>
-        <div class="col-40">
+        <div class="col-30">
           <div class="player-controller-time text-white text-size-14">
             <div class="player-bar">
               <div class="elapsed-time">
