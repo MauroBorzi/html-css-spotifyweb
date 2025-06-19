@@ -141,6 +141,34 @@ h3 {
   font-size: 12px;
 }
 
+/* layout footer*/
+
+.player-controller-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.player-bar {
+  width: 90%;
+  background-color: gray;
+  height: 6px;
+  border-radius: 6px;
+  margin: 0 10px;
+  position: relative;
+}
+
+.elapsed-time {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: silver;
+  height: 100%;
+  width: 20%;
+  border-radius: 6px;
+}
+
 /* utility */
 
 .bg-black {
@@ -221,13 +249,21 @@ h3 {
   border-left: 4px solid #adff2f;
 }
 
-.col-100 {
-  width: 100%;
-}
-
 .col-20 {
   width: calc(100% / 6 - 5px);
   color: #a3a3a3;
+}
+
+.col-30 {
+  width: 30%;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.col-100 {
+  width: 100%;
 }
 
 .col-20 img {
