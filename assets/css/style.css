@@ -142,6 +142,14 @@ header a {
   padding-top: 10px;
 }
 
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
 .position-relative {
   position: relative;
 }
