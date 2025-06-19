@@ -64,6 +64,7 @@ ul li a:hover {
 
 .row .col-20 img:hover {
   opacity: 0.3;
+  cursor: pointer;
 }
 
 /* layout sidebar */
@@ -443,5 +444,14 @@ ul li a:hover {
 
   .col-25 img {
     width: 25px;
+    padding-right: 5px;
+  }
+
+  .col-30 .col-30 i {
+    padding-top: 10px;
+  }
+
+  .col-25 i {
+    padding-left: 5px;
   }
 }
