@@ -25,6 +25,7 @@ main {
 footer {
   background-color: #282828;
   height: 100px;
+  font-size: 10px;
 }
 
 .row {
@@ -109,6 +110,7 @@ h3 {
 
 #content .content-menu ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding-top: 20px;
 }
@@ -154,7 +156,7 @@ h3 {
 }
 
 .player-bar {
-  width: 90%;
+  width: 100%;
   background-color: gray;
   height: 6px;
   border-radius: 6px;
@@ -311,7 +313,7 @@ h3 {
 }
 
 .col-25 img {
-  width: 60px;
+  width: 50px;
 }
 
 .col-30 {
@@ -328,4 +330,54 @@ h3 {
 
 .col-100 {
   width: 100%;
+}
+
+/* responsive fix */
+
+@media screen and (max-width:991px) {
+  .col-20 {
+    width: calc(100% / 4 - 5px);
+    padding-bottom: 20px;
+  }
+
+  .col-25 img {
+    width: 45px;
+  }
+}
+
+@media screen and (max-width:805px) {
+  .col-25 img {
+    width: 40px;
+  }
+}
+
+@media screen and (max-width:769px) {
+  .col-30 .col-30 i:last-child {
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width:738px) {
+  #content .content-menu ul li {
+    padding-top: 20px;
+  }
+
+  .col-25 img {
+    width: 35px;
+  }
+
+  .col-30 .text-white {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width:660px) {
+  .col-20 {
+    width: calc(100% / 2 - 5px);
+    padding-bottom: 20px;
+  }
+
+  .col-25 img {
+    width: 30px;
+  }
 }
