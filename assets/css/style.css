@@ -15,6 +15,11 @@ header {
   background-color: rgb(8, 11, 18, 0.5);
   height: 70px;
   text-align: right;
+  width: calc(100% - 200px);
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
 }
 
 main {
@@ -336,6 +341,10 @@ ul li span:hover {
   padding-right: 10px;
 }
 
+.pr-20 {
+  padding-right: 20px;
+}
+
 .pb-8 {
   padding-bottom: 8px;
 }
@@ -492,6 +501,10 @@ ul li span:hover {
 
   #content {
     width: calc(100vw - 50px);
+  }
+
+  header {
+    width: calc(100% - 50px);
   }
 
   .display-none {
