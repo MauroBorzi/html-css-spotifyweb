@@ -185,6 +185,7 @@ ul li span:hover {
   align-items: center;
   background-color: rgb(0, 0, 0, 0.5);
   display: none;
+  cursor: pointer;
 }
 
 .box-play2 {
@@ -200,6 +201,7 @@ ul li span:hover {
   background-color: rgb(0, 0, 0, 0.5);
   display: none;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .card:hover .box-play {
@@ -322,6 +324,7 @@ ul li span:hover {
 
 .text-size-18:hover {
   font-size: 22px;
+  cursor: pointer;
 }
 
 .display-flex {
@@ -381,13 +384,12 @@ ul li span:hover {
   padding-top: 100px;
 }
 
-.position-relative {
-  position: relative;
+.mt-135 {
+  margin-top: 135px;
 }
 
-.absolute-john {
-  position: absolute;
-  bottom: 100px;
+.position-relative {
+  position: relative;
 }
 
 .borderleft-green {
@@ -437,7 +439,7 @@ ul li span:hover {
 }
 
 .display-none {
-  display: inline;
+  display: inline-block;
 }
 
 .display-block {
@@ -534,5 +536,9 @@ ul li span:hover {
 
   .col-25 i {
     padding-left: 5px;
+  }
+
+  .mt-135 {
+    margin-top: 230px;
   }
 }
