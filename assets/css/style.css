@@ -52,12 +52,27 @@ h3 {
   padding-bottom: 5px;
 }
 
+h4:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+h6:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 ul li:hover {
   color: white;
   cursor: pointer;
 }
 
 ul li a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+ul li span:hover {
   color: white;
   cursor: pointer;
 }
@@ -296,6 +311,14 @@ ul li a:hover {
   font-size: 12px;
 }
 
+.text-size-18 {
+  font-size: 18px;
+}
+
+.text-size-18:hover {
+  font-size: 22px;
+}
+
 .display-flex {
   display: flex;
   align-items: center;
@@ -345,6 +368,10 @@ ul li a:hover {
   padding-top: 30px;
 }
 
+.pt-100 {
+  padding-top: 100px;
+}
+
 .position-relative {
   position: relative;
 }
@@ -377,6 +404,11 @@ ul li a:hover {
 
 .col-25 img {
   width: 50px;
+}
+
+.col-25 i:hover {
+  color: white;
+  cursor: pointer;
 }
 
 .col-30 {
