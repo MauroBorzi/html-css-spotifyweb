@@ -287,7 +287,7 @@ ul li span:hover {
 
 .col-30 .col-30 i {
   color: white;
-  padding-right: 10px;
+  padding: 0 5px;
 }
 
 
@@ -323,7 +323,7 @@ ul li span:hover {
 }
 
 .text-size-18:hover {
-  font-size: 22px;
+  transform: scale(1.5);
   cursor: pointer;
 }
 
